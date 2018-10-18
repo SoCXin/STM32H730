@@ -5,9 +5,9 @@
 
 意法半导体（ST）集团于1988年6月成立，是由意大利的SGS微电子公司和法国Thomson半导体公司合并而成。
 
-1998年5月，SGS-THOMSON Microelectronics将公司名称改为意法半导体有限公司。意法半导体是世界最大的半导体公司之一。
+1998年5月，SGS-THOMSON Microelectronics将公司名称改为意法半导体有限公司。
 
-ST提供的STM32和STM8处理器风靡全球。
+ST意法半导体是世界最大的半导体公司之一，提供的STM32和STM8处理器风靡全球。
 
 ---
 
