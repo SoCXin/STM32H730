@@ -1,37 +1,16 @@
 ﻿
-# ST
+# Cortex M0
 
 [![sites](docs/mcuyun.png)](http://www.mcuyun.com)
 
-意法半导体（ST）集团于1988年6月成立，是由意大利的SGS微电子公司和法国Thomson半导体公司合并而成。
+ARM公司的Cortex-M0应用于各种微控制器（MCU）中，并可让研发工程师以8位的价位创造32位的的效能，并将传统的8位和16位的处理器升级到更高效、更低功耗的32位处理器。
 
-1998年5月，SGS-THOMSON Microelectronics将公司名称改为意法半导体有限公司。
+Cortex-M0是Cortex-M家族中的M0系列。最大特点是低功耗的设计。Cortex-M0为32位、3级流水线RISC处理器，其核心仍为冯.诺依曼结构，是指令和数据共享同一总线的架构。作为新一代的处理器，Cortex-M0的设计进行了许多的改革与创新，如系统存储器地址映像(system address map)、改善效率并增强确定性的嵌套向量中断系统(NVIC)与不可屏蔽中断(NMI)、全新的硬件除错单元等等，都带给了使用者全新的体验和更便利、 更有效率的操作。
 
-ST意法半导体是世界最大的半导体公司之一，提供的STM32和STM8处理器风靡全球。
-
----
-
-### STM32F1
-
-资源最丰富，品类最齐全的单片机
-
-https://github.com/mcuyun/STM32F1.git
+CortexM0其核心架构为ARMv6M，其运算能力可以达到0.9 DMIPS/MHz，而与其他的16位与8位处理器相比，由于CortexM0的运算性能大幅提高，所以在同样任务的执行上CortexM0只需较低的运行速度，而大幅降低了整体的动态功耗。
 
 ---
 
-### STM8S
-
-ST提供的高性价比8位单片机
-
-https://github.com/mcuyun/STM8S.git
-
----
-
-### STM8L
-
-ST低功耗8位单片机
-
-https://github.com/mcuyun/STM8L.git
 
 ---
 
