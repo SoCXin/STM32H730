@@ -18,6 +18,13 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 
 https://github.com/libopencm3/libopencm3.git
 
+
+--- 
+
+## 文件组成
+
+template是工程文件夹
+
 --- 
 
 
