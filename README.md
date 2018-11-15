@@ -1,7 +1,14 @@
-﻿
-# ARM Cortex M
+﻿# [Cortex](https://github.com/mcuyun/Cortex) 
 
-[![sites](docs/mcuyun.png)](http://www.mcuyun.com)
+包括Cortex M和Cortex A主流处理器
+
+[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+
+#### 更多MCU：[mcuyun](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
+
+--- 
+
+## 简介 Cortex M
 
 
 MCU（微控制器处理器）通常设计成面积很小和能效比很高，这些处理器的流水线很短，最高时钟频率很低（但也有此类的处理器时钟频率可以运行在200Mhz之上）。 
@@ -11,24 +18,6 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 例如Cortex-M4和Cortex-M7处理器应用在许多高性能的微控制器产品中，最大的时钟频率可以达到400Mhz。
 
 并且，新的Cortex-M处理器家族设计的非常容易使用。
-
---- 
-
-## 相关资源
-
-https://github.com/libopencm3/libopencm3.git
-
-
---- 
-
-## 文件组成
-
-template是工程文件夹
-
---- 
-
-
-## 组成
 
 ### Cortex-M0/M0+/M1
 
@@ -93,7 +82,4 @@ https://github.com/mcuyun/GD32.git
 
 ---
 
-## 说明
-
-本工程用于索引mcuyun基于Cortex M的各个工程项目
-
+###  www.mcuyun.com   |    qitas@qitas.cn
