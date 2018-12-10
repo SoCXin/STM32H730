@@ -1,14 +1,12 @@
-﻿# [Cortex](https://github.com/mcuyun/Cortex) 
-
-包括Cortex M和Cortex A主流处理器
+﻿# [Cortex M](https://github.com/mcuyun/CM) 
 
 [![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
 
-#### 更多MCU：[mcuyun](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
+#### 归属架构：[ARM](https://github.com/mcuyun/ARM)
+#### [关于悠云](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
 
---- 
 
-## 简介 Cortex M
+## [简介](https://github.com/mcuyun/CM/wiki)
 
 
 MCU（微控制器处理器）通常设计成面积很小和能效比很高，这些处理器的流水线很短，最高时钟频率很低（但也有此类的处理器时钟频率可以运行在200Mhz之上）。 
@@ -19,17 +17,17 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 
 并且，新的Cortex-M处理器家族设计的非常容易使用。
 
-### Cortex-M0/M0+/M1
+### [Cortex M0/M0+/M1](https://github.com/mcuyun/CM0) 
 
-### Cortex-M3
+### [Cortex M3](https://github.com/mcuyun/CM3) 
 
-### Cortex-M4
+### [Cortex M4](https://github.com/mcuyun/CM4)
 
-### Cortex-M7
+### [Cortex M7](https://github.com/mcuyun/CM7)
 
-### Cortex-M23
+### [Cortex M23](https://github.com/mcuyun/CM23)
 
-### Cortex-M33
+### [Cortex M33](https://github.com/mcuyun/CM33)
 
 --- 
 
@@ -50,7 +48,7 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 - 向量表从跳转指令变为中断和系统异常处理函数的起始地址
 
 
-#### 低功耗是Cortex-M处理器的一个关键优点
+#### 低功耗
 
 - WFI和WFE指令
 
@@ -65,21 +63,8 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 - 时钟关闭和架构级时钟关闭：通过关闭处理器的寄存器或者子模块的时钟输入来省电
 
 
----
-
-## STM32F0
-
-https://github.com/mcuyun/STM32F0.git
-
-## STM32F1
-
-https://github.com/mcuyun/STM32F1.git
-
-## GD32
-
-https://github.com/mcuyun/GD32.git
-
 
 ---
 
-###  www.mcuyun.com   |    qitas@qitas.cn
+###  www.mcuyun.com   
+###  qitas@qitas.cn
