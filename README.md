@@ -1,37 +1,19 @@
-﻿# [Cortex M](https://github.com/mcuyun/CM) 
+﻿# [Cortex M](https://github.com/sochub/CM) 
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+[![sites](SoC/SoC.png)](http://www.qitas.cn) 
 
-#### 归属架构：[ARM](https://github.com/mcuyun/ARM)
-#### [关于悠云](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
+####  qitas@qitas.cn
+
+#### 归属：[ARM](https://github.com/sochub/ARM)
+
+## [简介](https://github.com/sochub/CM/wiki)
 
 
-## [简介](https://github.com/mcuyun/CM/wiki)
+MCU（微控制器处理器）通常设计成面积小和能效比很高，这些处理器流水线很短，最高时钟频率很低。 
 
+Cortex-M处理器家族集中在低性能端，但这是相对的，例如Cortex-M4和Cortex-M7应用在许多高性能的微控制器产品中，最大时钟频率可以达到400Mhz
 
-MCU（微控制器处理器）通常设计成面积很小和能效比很高，这些处理器的流水线很短，最高时钟频率很低（但也有此类的处理器时钟频率可以运行在200Mhz之上）。 
-
-Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相比于许多微控制器使用的传统处理器性能仍然很强大。
-
-例如Cortex-M4和Cortex-M7处理器应用在许多高性能的微控制器产品中，最大的时钟频率可以达到400Mhz。
-
-并且，新的Cortex-M处理器家族设计的非常容易使用。
-
-### [Cortex M0/M0+/M1](https://github.com/mcuyun/CM0) 
-
-### [Cortex M3](https://github.com/mcuyun/CM3) 
-
-### [Cortex M4](https://github.com/mcuyun/CM4)
-
-### [Cortex M7](https://github.com/mcuyun/CM7)
-
-### [Cortex M23](https://github.com/mcuyun/CM23)
-
-### [Cortex M33](https://github.com/mcuyun/CM33)
-
---- 
-
-## 特性
+### 特性
 
 - 所有的Crotex-M处理器都支持R0到R15，PSR, CONTROL 和 PRIMASK
 
@@ -47,8 +29,7 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 
 - 向量表从跳转指令变为中断和系统异常处理函数的起始地址
 
-
-#### 低功耗
+### 低功耗
 
 - WFI和WFE指令
 
@@ -63,8 +44,23 @@ Cortex-M处理器家族更多的集中在低性能端，但是这些处理器相
 - 时钟关闭和架构级时钟关闭：通过关闭处理器的寄存器或者子模块的时钟输入来省电
 
 
+#### [Cortex M0/M0+系列](https://github.com/sochub/CM0) 
 
----
+V6M架构，0.9DMIPS/MHz，中断数[1-32]+NMI，AHB Lite总线，主要特点是低成本
 
-###  www.mcuyun.com   
-###  qitas@qitas.cn
+#### [Cortex M3系列](https://github.com/sochub/CM3) 
+
+v7M架构，1.25DMIPS/MHz，中断数[1-240]+NMI，还包括APB总线，主要特点是能效
+
+#### [Cortex M4系列](https://github.com/sochub/CM4)
+
+v7ME架构，还包括DSP,SIMD,FP指令集
+
+#### [Cortex M7系列](https://github.com/sochub/CM7)
+
+#### [Cortex M23/M33系列](https://github.com/sochub/CM23)
+
+[![sites](SoC/CM.jpeg)](https://developer.arm.com/ip-products/processors/cortex-m) 
+
+
+##  [SoC开发平台](http://www.qitas.cn)   
