@@ -4,7 +4,8 @@
 
 ####  qitas@qitas.cn
 
-#### 归属：[ARM](https://github.com/sochub/ARM)
+#### 归属：[arm](https://github.com/sochub/ARM)
+#### [toolchain](https://github.com/sochub/toolchain)
 
 ## [简介](https://github.com/sochub/CM/wiki)
 
@@ -45,21 +46,17 @@ Cortex-M处理器家族集中在低性能端，但这是相对的，例如Cortex
 
 [![sites](SoC/compare.png)](https://developer.arm.com/ip-products/processors/cortex-m) 
 
-#### [Cortex M0/M0+系列](https://github.com/sochub/CM0) 
+### [已收录](https://github.com/sochub/CM)
 
-V6M架构，0.9DMIPS/MHz，中断数[1-32]+NMI，AHB Lite总线，主要特点是低成本
+#### [Cortex M0/M0+系列](https://github.com/sochub/CM0) 
 
 #### [Cortex M3系列](https://github.com/sochub/CM3) 
 
-v7M架构，1.25DMIPS/MHz，中断数[1-240]+NMI，还包括APB总线，主要特点是能效
-
 #### [Cortex M4系列](https://github.com/sochub/CM4)
 
-v7ME架构，还包括DSP,SIMD,FP指令集
+#### [Cortex M23系列](https://github.com/sochub/CM23)
 
 #### [Cortex M7系列](https://github.com/sochub/CM7)
-
-#### [Cortex M23/M33系列](https://github.com/sochub/CM23)
 
 [![sites](SoC/CM.jpeg)](https://developer.arm.com/ip-products/processors/cortex-m) 
 
