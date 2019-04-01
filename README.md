@@ -43,6 +43,7 @@ Cortex-M处理器家族集中在低性能端，但这是相对的，例如Cortex
 
 - 时钟关闭和架构级时钟关闭：通过关闭处理器的寄存器或者子模块的时钟输入来省电
 
+[![sites](SoC/compare.png)](https://developer.arm.com/ip-products/processors/cortex-m) 
 
 #### [Cortex M0/M0+系列](https://github.com/sochub/CM0) 
 
