@@ -1,18 +1,16 @@
 ﻿# [Cortex M](https://github.com/sochub/CM) 
 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://stop.stops.top) 
 
-####  qitas@qitas.cn
+#### 归属：[Cortex](https://github.com/sochub/Cortex)
 
-#### 归属：[arm](https://github.com/sochub/ARM)
-#### 工具：[toolchain](https://github.com/sochub/toolchain)
+## [架构简介](https://github.com/sochub/CM/wiki)
 
-## [简介](https://github.com/sochub/CM/wiki)
+ [Cortex M](https://github.com/sochub/CM) 是一个家族系列，主要应用于控制器芯片，其中包括多个不同型号，每个型号之间会有些区别，但编程模型基本是一致的。
 
+[![sites](SoC/compare.png)](https://developer.arm.com/ip-products/processors/cortex-m) 
 
-MCU（微控制器处理器）通常设计成面积小和能效比很高，这些处理器流水线很短，最高时钟频率很低。 
-
-Cortex-M处理器家族集中在低性能端，但这是相对的，例如Cortex-M4和Cortex-M7应用在许多高性能的微控制器产品中，最大时钟频率可以达到400Mhz
+[![sites](SoC/CM.jpeg)](https://developer.arm.com/ip-products/processors/cortex-m) 
 
 ### 特性
 
@@ -44,21 +42,20 @@ Cortex-M处理器家族集中在低性能端，但这是相对的，例如Cortex
 
 - 时钟关闭和架构级时钟关闭：通过关闭处理器的寄存器或者子模块的时钟输入来省电
 
-[![sites](SoC/compare.png)](https://developer.arm.com/ip-products/processors/cortex-m) 
+Cortex-M引入了操作模式和特权级别的概念，分别为线程模式和处理模式，如果进入异常或中断处理则进入处理模式，其他情况则为线程模式。
 
-### [已收录](https://github.com/sochub/CM)
+### [相关型号](https://github.com/sochub)
 
-- [Cortex M0/M0+系列](https://github.com/sochub/CM0) 
+* [Cortex M0](https://github.com/sochub/CM0)
+* [Cortex M3](https://github.com/sochub/CM3)
+* [Cortex M4](https://github.com/sochub/CM4)
+* [Cortex M7](https://github.com/sochub/CM7)
 
-- [Cortex M3系列](https://github.com/sochub/CM3) 
+### [选型建议](https://github.com/sochub)
 
-- [Cortex M4系列](https://github.com/sochub/CM4)
+当前MCU领域的主要内核是 [Cortex M](https://github.com/sochub/CM) 架构，但更可期的是 [RISC-V](https://github.com/sochub/RISC-V) 架构，更高性能的和计算密度的是[MIPS](https://github.com/sochub/MIPS)
 
-- [Cortex M23系列](https://github.com/sochub/CM23)
+由于MIPS内核中有32个寄存器（Register），而ARM只有16个，这种结构设计上的先天优势，决定了在同等性能表现下，MIPS的芯片面积和功耗会更小。
 
-- [Cortex M7系列](https://github.com/sochub/CM7)
+##  [SoC资源平台](http://stop.stops.top) 
 
-[![sites](SoC/CM.jpeg)](https://developer.arm.com/ip-products/processors/cortex-m) 
-
-
-##  [SoC开发平台](http://www.qitas.cn)   
