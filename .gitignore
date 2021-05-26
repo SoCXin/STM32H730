@@ -1,3 +1,67 @@
 *.pyc
 .pio/
 .vscode/
+# General temp files
+*.DS_Store
+*.swp
+*.lck
+*.autosave
+*~
+Change*
+CHANGE*
+README*
+COPY*
+*CONTRIBU*
+*.dep
+*.log
+*.ewt
+*.ewd
+*.pyc
+*.crf
+*.dep
+*.map
+*.hex
+*.bin
+*.bak
+*.txt
+*.lst
+*.uvgu*
+*.sct
+*.elf
+*.ini
+*.pio/
+*.vscode/
+settings/
+Debug/
+# GNU/Make
+*/*.s
+*_sc*
+*cm23*
+*cm3*
+*cm4*
+# *cm7*
+*cm1*
+*cm0*
+__pycache__/
+*.py[cod]
+*$py.class
+*__pyc*/
+*.pio/
+*.vscode/
+misc/svd/*.html
+*.rst
+examples/**/*.yml
+examples/**/*.md
+**/CONTR*
+**/CHANGE*
+.gitmodules
+**/*/README*
+LICENSE*
+# *.png
+*.jpg
+*.rst
+# *.md
+**/*/README*
+# C extensions
+*.so
+*.dcm

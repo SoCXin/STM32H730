@@ -1,0 +1,31 @@
+{
+    "type":"MCU",
+    "name":"STM32H730",
+    "title": "ST STM32H730 MCU",
+    "description":"ST Cortex-M7 MCU",
+    "Core": {
+        "type":"Cortex-M7",
+        "Freq":550,
+        "DMIPS": 1177,
+        "CoreMark": 2778
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/STM32H730-value-line.htm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32H730.git"
+    },
+    "version":"1.0.0",
+    "series":["STM32H730VB","STM32H730ZB","STM32H730IB","STM32H730XB"],
+    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
