@@ -3,7 +3,7 @@
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)
 
 * [ST](https://www.st.com/zh/): [Cortex-M7](https://github.com/SoCXin/Cortex)
-* [L6R5](https://github.com/SoCXin/Level): 550 MHz x 2.14 DMIPS/MHz (2424CoreMark)
+* [L6R6](https://github.com/SoCXin/Level): 550 MHz x 2.14 DMIPS/MHz (2424CoreMark)
 
 ## [简介](https://github.com/SoCXin/STM32H730/wiki)
 
